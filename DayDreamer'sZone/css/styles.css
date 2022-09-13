@@ -1,0 +1,179 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "montserrat";
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.medium-heading {
+    font-size: 2.75rem;
+    line-height: 1.5;
+}
+
+.small-heading {
+    font-size: 1.5rem;
+}
+
+/* Sections */
+.colored-section {
+    background-color: #ff4c68;
+    color: #f0f0f0;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+.container-fluid {
+    padding: 7% 14%;
+}
+
+/* Navbar section */
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 2rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+
+}
+
+.nav-link {
+    font-family: "Montserrat-Light";
+    font-size: 1.25rem;
+}
+
+
+
+/* Title section */
+
+
+#title .container-fluid {
+    padding: 3% 14% 7%;
+    text-align: left;
+}
+
+.title-img {
+    transform: rotate(25deg);
+    width: 20%;
+    right: 20%;
+    /* height: 100%; */
+    position: absolute;
+}
+
+/* Download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Features */
+#features {
+
+    font-family: "Montserrat";
+    position: relative;
+    z-index: 1;
+    /* z-index: 1; */
+
+}
+
+.feature-box {
+    padding: 5%;
+}
+
+.feature-icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+/* Testimonial section */
+#testimonials {
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press section */
+#press {
+    padding-bottom: 3%;
+    background-color: #ef8172;
+}
+
+.press-image {
+    width: 15%;
+    margin: 3% 3% 7%;
+}
+
+
+
+/* pricing Section */
+#pricing {
+    padding: 7%;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+}
+
+/* Footer section */
+
+footer .container-fluid {
+    padding: 3% 14%;
+}
+
+.social-icon {
+    padding: 1%;
+}
+
+/* Media query */
+@media (max-width:991.98px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .download-button {
+        font-size: 1rem;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
+}
