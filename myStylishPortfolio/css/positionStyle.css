@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.firstBox {
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}
+
+.secondBox {
+    background-color: greenyellow;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+
+.thirdBox {
+    background-color: royalblue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+
+}
